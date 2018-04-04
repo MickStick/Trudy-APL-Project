@@ -8,9 +8,10 @@
               <h5 class="center">Enter Equation</h5>
               <div class="input-field">
                 <textarea class="materialize-textarea" name="data" id=""></textarea>
-                <button class="btn green darken-2">Submit</button>
+                
               </div>
           </form>
+          <button class="btn green darken-2" id="btn">Submit</button>
       </div>
 
   </div>
