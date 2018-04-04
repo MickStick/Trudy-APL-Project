@@ -80,23 +80,7 @@ export default {
           	 document.getElementById("expr").innerHTML = text;
 
           	 
-      },
-
-      replaceStr: (str, find, replace) => {
-        for (let i = 0; i < find.length; i++) {
-            str = str.replace(new RegExp(find[i], 'gi'), replace[i]);
-          str=str.replace(/[-&\/\\#,+$~%.'":*?<>]/g,'.');
-        }
-        return str;
-      },
-  },
-  computed: {
-    Formula: () => {
-      return this.formula;
-    }, 
-    bread: () => {
-      alert(this.formula);
-    }
+      }
   }
 }
 </script>
